@@ -1,0 +1,58 @@
+<div class="items-center justify-center self-stretch">
+  <div class="shrink grow basis-0 font-semibold leading-normal text-gray-200">
+    {{ "keyword.capitalize.specialists" | translate }}
+  </div>
+</div>
+<div
+  class="flex flex-wrap items-center justify-start gap-3 self-stretch overflow-x-auto"
+>
+  <div class="flex flex-wrap items-start justify-start gap-6">
+    <ng-container *ngIf="list$ | async as list">
+      <div
+        *ngFor="let specialist of list; let index = index"
+        class="inline-flex h-24 flex-col items-center justify-between"
+      >
+        <img
+          *ngIf="specialist?.avatar?.url?.length"
+          class="h-14 max-h-14 min-h-14 w-14 min-w-14 max-w-14 rounded-full object-cover"
+          [src]="specialist?.avatar?.url"
+        />
+        <ng-template [ngIf]="!specialist?.avatar">
+          <div
+            class="flex h-14 max-h-14 min-h-14 w-14 min-w-14 max-w-14 items-center justify-center rounded-full bg-neutral-200 text-3xl font-extrabold leading-tight"
+          >
+            {{ specialist?.firstName?.charAt(0)
+            }}{{ specialist?.lastName?.charAt(0) }}
+          </div>
+        </ng-template>
+        <div class="text-center leading-normal text-slate-400">
+          {{ specialist?.firstName }}
+        </div>
+      </div>
+      <!--    <div class="h-24 flex-col justify-between items-center inline-flex">-->
+      <!--      <div class="w-14 h-14 relative">-->
+      <!--        <img class="w-14 h-14 left-0 top-0 absolute rounded-full" src="https://via.placeholder.com/60x60"/>-->
+      <!--        <div class="w-4 h-4 left-[44px] top-[44px] absolute bg-gray-800 rounded-3xl"></div>-->
+      <!--      </div>-->
+      <!--      <div class="text-center text-slate-400 leading-normal">Karin</div>-->
+      <!--    </div>-->
+    </ng-container>
+
+    <ng-template [ngIf]="loading.state$ | async">
+      <div
+        *ngFor="let loadingRow of loadingRows"
+        class="inline-flex h-24 animate-pulse flex-col items-center justify-between"
+      >
+        <div class="relative h-14 w-14">
+          <div
+            class="flex h-14 min-h-14 w-14 min-w-14 items-center justify-center rounded-full bg-slate-600 text-3xl font-extrabold leading-tight"
+          ></div>
+          <!--        <img class="w-14 h-14 left-0 top-0 absolute rounded-full border border-yellow-400"-->
+          <!--             src="https://via.placeholder.com/60x60"/>-->
+          <!--        <div class="w-5 h-5 left-[40px] top-[40px] absolute bg-neutral-900 rounded-3xl"></div>-->
+        </div>
+        <div class="text-center leading-normal text-slate-400">...</div>
+      </div>
+    </ng-template>
+  </div>
+</div>

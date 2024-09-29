@@ -1,0 +1,42 @@
+{
+  "/client/*": {
+    "target": "http://localhost:5000",
+    "secure": false,
+    "logLevel": "debug",
+    "changeOrigin": true,
+    "ws": true,
+    "pathRewrite": {
+      "^/client": ""
+    }
+  },
+  "/identity/*": {
+    "target": "http://localhost:4000",
+    "secure": false,
+    "logLevel": "debug",
+    "changeOrigin": true,
+    "ws": true,
+    "pathRewrite": {
+      "^/identity": ""
+    }
+  },
+  "/api.client/*": {
+    "target": "https://api.dev.beeoclock.com/client",
+    "secure": false,
+    "logLevel": "debug",
+    "changeOrigin": true,
+    "ws": true,
+    "pathRewrite": {
+      "^/api.client": ""
+    }
+  },
+  "/api.identity/*": {
+    "target": "https://api.dev.beeoclock.com/identity",
+    "secure": false,
+    "logLevel": "debug",
+    "changeOrigin": true,
+    "ws": true,
+    "pathRewrite": {
+      "^/api.identity": ""
+    }
+  }
+}

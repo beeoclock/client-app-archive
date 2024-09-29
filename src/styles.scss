@@ -1,0 +1,101 @@
+@import "assets/scss/beeoclock-icons";
+//@import "/src/assets/scss/patterns";
+@import "bootstrap-icons";
+@import "@ng-select/ng-select/themes/default.theme.css";
+
+/* You can add global styles to this file, and also import other style files */
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@import 'intl-tel-input/build/css/intlTelInput.css';
+
+html {
+  @apply bg-slate-500;
+}
+
+body {
+  scroll-behavior: smooth;
+  @apply min-h-screen overflow-auto bg-gradient-to-t from-gray-800 to-slate-500 bg-fixed;
+}
+
+input[disabled] {
+  pointer-events: none;
+  cursor: not-allowed;
+}
+
+button[disabled] {
+  pointer-events: none;
+  cursor: not-allowed;
+  opacity: 0.5;
+}
+
+// START CUSTOM ICON
+
+.bee-icon {
+  font-family: "beeoclock-icons";
+  font-style: normal;
+  font-weight: normal;
+  speak: never;
+
+  display: inline-block;
+  text-decoration: inherit;
+  width: 1em;
+  //margin-right: .2em;
+  text-align: center;
+  /* opacity: .8; */
+
+  /* For safety - reset parent styles, that can break glyph codes*/
+  font-variant: normal;
+  text-transform: none;
+
+  /* fix buttons height, for twitter bootstrap */
+  line-height: 1em;
+
+  /* Animation center compensation - margins should be symmetric */
+  /* remove if not needed */
+  //margin-left: .2em;
+
+  /* You can be more comfortable with increased icons size */
+  /* font-size: 120%; */
+
+  /* Font smoothing. That was taken from TWBS */
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+
+  /* Uncomment for 3D effect */
+  /* text-shadow: 1px 1px 1px rgba(127, 127, 127, 0.3); */
+}
+
+label[required]:after {
+  content: " *";
+  @apply text-red-500;
+}
+
+@layer base {
+  body {
+    @apply bg-neutral-50 text-black dark:bg-neutral-800 dark:text-white;
+  }
+}
+
+.text-balance {
+  text-wrap: balance;
+}
+
+
+// intl-tel-input styles
+.iti {
+    display: block !important;
+
+    .iti__country-list {
+        @apply bg-gray-800 rounded-lg shadow-lg border border-gray-700;
+    }
+
+    .iti__search-input {
+        @apply bg-gray-800 rounded-lg shadow-lg border border-gray-700;
+    }
+
+    .iti__dropdown-content {
+        @apply bg-gray-800 rounded-lg shadow-lg border border-gray-700;
+    }
+}

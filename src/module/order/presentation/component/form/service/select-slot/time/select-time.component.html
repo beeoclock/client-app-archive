@@ -1,0 +1,29 @@
+<div class="flex items-center justify-between gap-1" *ngIf="!(loader.state$ | async)">
+    <ng-template [ngIf]="!slots.length">
+        {{ "keyword.capitalize.freeHoursAreTaken" | translate }}
+    </ng-template>
+    <div
+        *ngIf="slots.length"
+        class="grid w-full grid-cols-3 gap-4">
+        <button
+            type="button"
+            *ngFor="let timeSlot of slots"
+            (click)="selectSlot(timeSlot)"
+            [ngClass]="{
+                    'bg-yellow-400 text-gray-800': isSelected(timeSlot.start),
+                    'bg-gray-800 text-white': !isSelected(timeSlot.start),
+                  }"
+            class="flex min-w-[72px] flex-col items-center justify-center rounded-lg border-2 border-slate-600 px-3 py-2 leading-tight shadow transition-all duration-500 hover:border-slate-600 hover:bg-yellow-400 hover:text-slate-600">
+            <span>{{ timeSlot.start.toFormat("HH:mm") }}</span>
+        </button>
+    </div>
+</div>
+
+<div *ngIf="loader.state$ | async" class="animate-pulse grid w-full grid-cols-3 gap-4">
+    <button
+        type="button"
+        *ngFor="let emptySlot of arrayOfEmptySlot"
+        [disabled]="true"
+        class="bg-gray-800 h-10 text-white flex min-w-[72px] flex-col items-center justify-center rounded-lg border-2 border-slate-600 px-3 py-2 leading-tight shadow transition-all duration-500 hover:border-slate-600 hover:bg-yellow-400 hover:text-slate-600">
+    </button>
+</div>

@@ -1,0 +1,359 @@
+{
+    "agreement": {
+        "validation": {
+            "required": "Du skal acceptere vilkårene og betingelserne for at fortsætte."
+        }
+    },
+    "agreements": {
+        "termsOfUseAndPrivacyPolicy": {
+            "label": "Jeg accepterer <a href=\"{{terms_link}}\" target=\"_blank\">vilkårene for brug</a> og <a href=\"{{privacy_link}}\" target=\"_blank\">privatlivspolitikken</a>"
+        }
+    },
+    "cart": {
+        "confirm": {
+            "removeService": {
+                "question": "Er du sikker på, at du vil fjerne denne tjeneste?"
+            }
+        },
+        "title": "Vogn"
+    },
+    "client": {
+        "details": {
+            "section": {
+                "address": {
+                    "title": "Adresse & Beliggenhed"
+                },
+                "contactAndBusinessHours": {
+                    "title": "Åbningstider"
+                },
+                "facilities": {
+                    "title": "Faciliteter"
+                },
+                "ourWork": {
+                    "title": "Vores Arbejde"
+                },
+                "socialNetwork": {
+                    "title": "Sociale Medier & Del"
+                }
+            }
+        }
+    },
+    "country": {
+        "DK": "Danmark",
+        "PL": "Polen",
+        "UA": "Ukraine"
+    },
+    "event": {
+        "details": {
+            "keyword": {
+                "capitalize": {
+                    "when": "Hvornår"
+                }
+            },
+            "status": {
+                "booked": {
+                    "hint": "Tillykke, en specialist har godkendt din anmodning, og nu skal du markere begivenheden i din kalender, så du ikke glemmer den.",
+                    "title": "Reservation bekræftet"
+                },
+                "cancelled": {
+                    "hint": "Specialisten har desværre afvist din anmodning, måske har de travlt eller er ikke på arbejde den dag. Prøv venligst en anden gang.",
+                    "title": "Anmodning afvist"
+                },
+                "cancelledByCustomer": {
+                    "hint": "Arrangementet blev aflyst på din anmodning",
+                    "title": "Arrangementet er blevet aflyst"
+                },
+                "done": {
+                    "hint": "Tillykke, begivenheden fandt sted, vi håber, du nød det. Glem ikke at skrive en anmeldelse om specialisten.",
+                    "title": "Begivenheden fandt sted"
+                },
+                "requested": {
+                    "hint": "Nu skal specialisten godkende anmodningen, og efter godkendelse vil du modtage en e-mail, og hvis anmodningen afvises, vil du også modtage en e-mail.",
+                    "title": "Anmodningen er blevet sendt"
+                }
+            }
+        },
+        "form": {
+            "section": {
+                "additional": {
+                    "input": {
+                        "note": {
+                            "placeholder": "Her kan du indtaste yderligere information om begivenheden"
+                        }
+                    }
+                },
+                "attendant": {
+                    "button": {
+                        "add": "Tilføj deltager",
+                        "togglePresentationOfNewAttendant": "Denne klient er ikke opført (ny klient)"
+                    },
+                    "hit": {
+                        "enterData": "Indtast dine data for at booke tjenesten"
+                    },
+                    "input": {
+                        "email": {
+                            "hint": "Vi anbefaler, at du angiver en e-mailadresse, som bekræftelser og opdateringer om arrangementet vil blive sendt til."
+                        },
+                        "selectCustomer": {
+                            "placeholder": "Vælg kunde"
+                        }
+                    }
+                },
+                "general": {
+                    "comment": {
+                        "placeholder": "Hvis du vil informere en specialist om noget vigtigt, skal du skrive det i dette felt"
+                    }
+                },
+                "service": {
+                    "button": {
+                        "add": "Tilføj service",
+                        "select": "Vælg service"
+                    },
+                    "input": {
+                        "selectService": {
+                            "placeholder": "Vælg service"
+                        }
+                    },
+                    "modal": {
+                        "title": "Vælg service"
+                    }
+                }
+            }
+        },
+        "keyword": {
+            "capitalize": {
+                "end": "Forventet Slut",
+                "repeat": "Gentag",
+                "service": "Service",
+                "start": "Booking Start",
+                "status": "Status"
+            },
+            "status": {
+                "booked": "Booket",
+                "cancelled": "Annulleret",
+                "done": "Udført",
+                "requested": "Anmodet"
+            }
+        },
+        "title": "Begivenhed"
+    },
+    "facility": {
+        "capitalize": {
+            "ACCEPTING_CARD_PAYMENT": "Accepterer kreditkort",
+            "ACCEPTING_CHILDREN": "Børnevenlig",
+            "ACCEPTING_PETS": "Kæledyr tilladt",
+            "ACCOMMODATIONS_FOR_PEOPLE_WITH_DISABILITIES": "Faciliteter for personer med handicap",
+            "FREE_PARKING": "Gratis Parkering",
+            "INTERNET": "Internet (Wi-Fi)"
+        }
+    },
+    "form": {
+        "validation": {
+            "atLeastOneFieldMustBeFilled": "Mindst et felt skal udfyldes",
+            "email": "Ugyldigt e-mail format",
+            "emailOrPhoneRequired": "E-mail eller telefonnummer er påkrævet",
+            "invalid": "Invalid",
+            "minlength": "Minimumslængde er {{requiredLength}}",
+            "required": "Påkrævet felt"
+        }
+    },
+    "keyword": {
+        "capitalize": {
+            "account": "Konto",
+            "action": "Handling",
+            "active": "Aktiv",
+            "add-event": "Tilføj begivenhed",
+            "add-next-service": "Tilføj en anden tjeneste",
+            "add-service": "Tilføj service",
+            "addAvailableHours": "Tilføj tilgængelige timer",
+            "addContactPhone": "Tilføj telefonnummer",
+            "addSocialMedia": "Tilføj sociale medier",
+            "additional": "Yderligere",
+            "address": "Adresse",
+            "anybody": "Enhver",
+            "approvalTime": "Godkendelsestid",
+            "approve": "Godkend",
+            "attendees": "Deltagere",
+            "back": "Tilbage",
+            "book": "Book",
+            "bookNow": "Book nu",
+            "booking": "Booking",
+            "bookingSettings": "Bookingindstillinger",
+            "break": "Pause",
+            "businessCategory": "Forretningskategori",
+            "businessName": "Forretningsnavn",
+            "call": "Ring til",
+            "cancel": "Annuller",
+            "cancelEvent": "Annuller begivenheden",
+            "cancelOrder": "Annuller ordren",
+            "changeLanguage": "Ændring af sprog",
+            "chooseADateAndTime": "Vælg dato og klokkeslæt",
+            "chooseImage": "Vælg billede",
+            "city": "By",
+            "clearCache": "Opdater cache",
+            "clickToUpload": "Klik for at uploade",
+            "clients": "Klienter",
+            "close": "Luk",
+            "closed": "Lukket",
+            "comingSoon": "Kommer snart...",
+            "comment": "Kommentar",
+            "confirm": "Bekræft",
+            "contact": "Kontakt",
+            "contactPhone": "Kontakttelefon",
+            "country": "Land",
+            "createdAt": "Oprettet den",
+            "customer": "Kunde",
+            "dataNotFound": "Data ikke fundet",
+            "dateAndTime": "Dato og tid",
+            "delete": "Slet",
+            "description": "Beskrivelse",
+            "details": "Detaljer",
+            "dismiss": "Afvis",
+            "done": "Færdig",
+            "duration": "Varighed",
+            "earliestBooking": "Tidligste bookingtid",
+            "edit": "Rediger",
+            "email": "E-mail",
+            "end": "Slut",
+            "events": "Begivenheder",
+            "facilities": "Faciliteter",
+            "feature": "Funktion",
+            "firstName": "Fornavn",
+            "freeHoursAreTaken": "Ingen gratis spilleautomater",
+            "from": "Fra",
+            "fullName": "Fulde navn",
+            "general": "Generelt",
+            "image": "Billede",
+            "inProgress": "I gang",
+            "inactive": "Inaktiv",
+            "information": "Information",
+            "items": "Mængde",
+            "language": "Sprog",
+            "languages": "Sprog",
+            "lastName": "Efternavn",
+            "lastUpdate": "Sidste opdatering",
+            "latestBooking": "Seneste bookingtid",
+            "loading": "Indlæser",
+            "logout": "Log ud",
+            "makeAnAppointment": "Lav en aftale",
+            "members": "Medlemmer",
+            "menu": "Menu",
+            "name": "Navn",
+            "next": "Næste",
+            "nextStep": "Næste skridt",
+            "no": "Nej",
+            "note": "Note",
+            "openCart": "Gå til kurven",
+            "paymentMethod": "Betalingsmetode",
+            "permission": "Tilladelse",
+            "personalInformation": "Personlig information",
+            "phone": "Telefon",
+            "placeholder": {
+                "description": "Skriv beskrivelse",
+                "search": "Søg"
+            },
+            "previous": "Forrige",
+            "price": "Pris",
+            "priceTimeFormatPrompt": "timer:minutter",
+            "prices": "Priser",
+            "publicPage": "Offentlig side",
+            "reserve": "Reservér",
+            "role": "Rolle",
+            "save": "Gem",
+            "select": "Vælg",
+            "selectSpecialist": "Vælg specialist",
+            "selected": "Valgt",
+            "send": "Send",
+            "service": "Service",
+            "services": "Tjenester",
+            "servicesOrdered": "Bestilte tjenester",
+            "signIn": "Log ind",
+            "signOut": "Log ud",
+            "signUp": "Tilmeld",
+            "slogan": "Slogan",
+            "socialMedia": "Sociale medier",
+            "soon": "Snart",
+            "specialist": "Specialist",
+            "specialists": "Specialister",
+            "start": "Start",
+            "status": "Status",
+            "streetAddressLineOne": "Adresse 1",
+            "streetAddressLineTwo": "Adresse 2",
+            "theme": "Tema",
+            "title": "Titel",
+            "to": "Til",
+            "today": "I dag",
+            "tomorrow": "I morgen",
+            "total": "Total",
+            "totalAmount": "Samlet beløb",
+            "unknown": "Ukendt",
+            "update": "Opdateret",
+            "updatedAt": "Opdateret den",
+            "workdays": "Arbejdsdage",
+            "workingHours": "Arbejdstimer",
+            "writePrice": "Skriv pris",
+            "yes": "Ja",
+            "zipCode": "Postnummer"
+        },
+        "lowercase": {
+            "dragAndDrop": "træk og slip",
+            "event": "begivenhed",
+            "or": "eller"
+        }
+    },
+    "library": {
+        "addToCalendar": {
+            "hint": "Føj begivenheden til din kalender for at gemme den på dine enheder.",
+            "title": "Tilføj til kalender"
+        }
+    },
+    "order": {
+        "confirm": {
+            "cancel": {
+                "question": "Er du sikker på, at du vil annullere denne ordre?"
+            }
+        }
+    },
+    "paymentMethod": {
+        "cash": "Kontant"
+    },
+    "seo": {
+        "page": {
+            "client": {
+                "details": {
+                    "default": {
+                        "description": "Brug de pålidelige tjenester fra {{businessName}}. Hyggelig og behagelig atmosfære, højt serviceniveau. Lav en aftale lige nu!"
+                    }
+                }
+            }
+        }
+    },
+    "tabMenu": {
+        "details": {
+            "label": "Detaljer"
+        },
+        "service": {
+            "label": "Tjenester"
+        }
+    },
+    "weekday": {
+        "long": {
+            "friday": "Fredag",
+            "monday": "Mandag",
+            "saturday": "Lørdag",
+            "sunday": "Søndag",
+            "thursday": "Torsdag",
+            "tuesday": "Tirsdag",
+            "wednesday": "Onsdag"
+        },
+        "short": {
+            "friday": "Fre",
+            "monday": "Man",
+            "saturday": "Lør",
+            "sunday": "Søn",
+            "thursday": "Tor",
+            "tuesday": "Tir",
+            "wednesday": "Ons"
+        }
+    }
+}

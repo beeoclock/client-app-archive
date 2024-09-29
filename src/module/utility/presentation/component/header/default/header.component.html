@@ -1,0 +1,19 @@
+<div class="mx-auto flex w-full max-w-md items-center justify-between p-4">
+    <div class="flex items-center justify-end self-stretch">
+        <button
+                type="button"
+                (click)="back.emit($event)"
+                class="inline-flex cursor-pointer items-center rounded-lg px-4 py-2.5 text-center text-xl font-medium text-white transition-all duration-100 hover:bg-white/20 focus:outline-none focus:ring-4 focus:ring-beeColor-400 active:scale-95"
+        >
+            <i class="bi {{ icon }}"></i>
+        </button>
+    </div>
+    <div
+            class="flex items-center justify-start gap-1 self-stretch py-2.5 text-2xl font-bold"
+    >
+        {{ title }}
+    </div>
+    <div class="flex min-w-[52px] items-center justify-end self-stretch">
+        <utility-change-language-component/>
+  </div>
+</div>

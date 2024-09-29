@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--	created with www.mysitemapgenerator.com	-->
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9" xmlns:xhtml="http://www.w3.org/1999/xhtml">
+  <url>
+    <loc>https://beeoclock.com/barbershop_brooklyn</loc>
+    <lastmod>2024-04-1T11:00:00+02:00</lastmod>
+    <priority>1.0</priority>
+    <xhtml:link
+      rel="alternate"
+      hreflang="en"
+      href="https://beeoclock.com/en/barbershop_brooklyn"/>
+    <xhtml:link
+      rel="alternate"
+      hreflang="uk"
+      href="https://beeoclock.com/uk/barbershop_brooklyn"/>
+    <xhtml:link
+      rel="alternate"
+      hreflang="da"
+      href="https://beeoclock.com/da/barbershop_brooklyn"/>
+    <xhtml:link
+      rel="alternate"
+      hreflang="pl"
+      href="https://beeoclock.com/pl/barbershop_brooklyn"/>
+  </url>
+</urlset>

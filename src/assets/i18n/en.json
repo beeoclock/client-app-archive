@@ -1,0 +1,359 @@
+{
+    "agreement": {
+        "validation": {
+            "required": "You need to agree to the terms and conditions to continue."
+        }
+    },
+    "agreements": {
+        "termsOfUseAndPrivacyPolicy": {
+            "label": "I agree to the <a href=\"{{terms_link}}\" target=\"_blank\">Terms of Use</a> and <a href=\"{{privacy_link}}\" target=\"_blank\">Privacy Policy</a>"
+        }
+    },
+    "cart": {
+        "confirm": {
+            "removeService": {
+                "question": "Are you sure you want to remove this service?"
+            }
+        },
+        "title": "Cart"
+    },
+    "client": {
+        "details": {
+            "section": {
+                "address": {
+                    "title": "Address & Location"
+                },
+                "contactAndBusinessHours": {
+                    "title": "Business hours"
+                },
+                "facilities": {
+                    "title": "Facilities"
+                },
+                "ourWork": {
+                    "title": "Our Work"
+                },
+                "socialNetwork": {
+                    "title": "Social Media & Share"
+                }
+            }
+        }
+    },
+    "country": {
+        "DK": "Denmark",
+        "PL": "Poland",
+        "UA": "Ukraine"
+    },
+    "event": {
+        "details": {
+            "keyword": {
+                "capitalize": {
+                    "when": "When"
+                }
+            },
+            "status": {
+                "booked": {
+                    "hint": "Congratulations, a specialist has approved your request, now mark the event in your calendar so you don't forget about it.",
+                    "title": "Reservation confirmed"
+                },
+                "cancelled": {
+                    "hint": "Unfortunately, the specialist rejected your request, perhaps they are busy or not working that day. Please try another time.",
+                    "title": "Request rejected"
+                },
+                "cancelledByCustomer": {
+                    "hint": "The event was successfully canceled at your request",
+                    "title": "The event has been canceled"
+                },
+                "done": {
+                    "hint": "Congratulations, the event took place, we hope you enjoyed it. Don't forget to leave a review about the specialist.",
+                    "title": "The event took place"
+                },
+                "requested": {
+                    "hint": "Now the specialist must approve the request, and after approval, you will receive an email notification, and if the request is rejected, you will also receive an email notification.",
+                    "title": "The request has been sent"
+                }
+            }
+        },
+        "form": {
+            "section": {
+                "additional": {
+                    "input": {
+                        "note": {
+                            "placeholder": "Here you can enter additional information about the event"
+                        }
+                    }
+                },
+                "attendant": {
+                    "button": {
+                        "add": "Add attendant",
+                        "togglePresentationOfNewAttendant": "This client is not listed (new client)"
+                    },
+                    "hit": {
+                        "enterData": "Enter your data to book the service"
+                    },
+                    "input": {
+                        "email": {
+                            "hint": "We recommend that you provide an email address to which confirmations and updates about the event will be sent"
+                        },
+                        "selectCustomer": {
+                            "placeholder": "Select customer"
+                        }
+                    }
+                },
+                "general": {
+                    "comment": {
+                        "placeholder": "If you want to inform a specialist about something important, leave this information in this field"
+                    }
+                },
+                "service": {
+                    "button": {
+                        "add": "Add service",
+                        "select": "Select service"
+                    },
+                    "input": {
+                        "selectService": {
+                            "placeholder": "Select service"
+                        }
+                    },
+                    "modal": {
+                        "title": "Select service"
+                    }
+                }
+            }
+        },
+        "keyword": {
+            "capitalize": {
+                "end": "Estimated End",
+                "repeat": "Repeat",
+                "service": "Service",
+                "start": "Booking Start",
+                "status": "Status"
+            },
+            "status": {
+                "booked": "Booked",
+                "cancelled": "Canceled",
+                "done": "Done",
+                "requested": "Requested"
+            }
+        },
+        "title": "Event"
+    },
+    "facility": {
+        "capitalize": {
+            "ACCEPTING_CARD_PAYMENT": "Accepting credit cards",
+            "ACCEPTING_CHILDREN": "Child-friendly",
+            "ACCEPTING_PETS": "Pets allowed",
+            "ACCOMMODATIONS_FOR_PEOPLE_WITH_DISABILITIES": "Accommodations for people with disabilities",
+            "FREE_PARKING": "Free Parking",
+            "INTERNET": "Internet (Wi-Fi)"
+        }
+    },
+    "form": {
+        "validation": {
+            "atLeastOneFieldMustBeFilled": "At least one field must be filled",
+            "email": "Invalid E-mail format",
+            "emailOrPhoneRequired": "E-mail or phone number is required",
+            "invalid": "Invalid",
+            "minlength": "Minimum length is {{requiredLength}}",
+            "required": "Required field"
+        }
+    },
+    "keyword": {
+        "capitalize": {
+            "account": "Account",
+            "action": "Action",
+            "active": "Active",
+            "add-event": "Add event",
+            "add-next-service": "Add another service",
+            "add-service": "Add service",
+            "addAvailableHours": "Add available hours",
+            "addContactPhone": "Add phone number",
+            "addSocialMedia": "Add social media",
+            "additional": "Additional",
+            "address": "Address",
+            "anybody": "Anybody",
+            "approvalTime": "Approval time",
+            "approve": "Approve",
+            "attendees": "Attendees",
+            "back": "Back",
+            "book": "Book",
+            "bookNow": "Book now",
+            "booking": "Booking",
+            "bookingSettings": "Booking settings",
+            "break": "Break",
+            "businessCategory": "Business category",
+            "businessName": "Business name",
+            "call": "Call",
+            "cancel": "Cancel",
+            "cancelEvent": "Cancel the event",
+            "cancelOrder": "Cancel the order",
+            "changeLanguage": "Change language",
+            "chooseADateAndTime": "Choose a date and time",
+            "chooseImage": "Choose image",
+            "city": "City",
+            "clearCache": "Refresh cache",
+            "clickToUpload": "Click to upload",
+            "clients": "Clients",
+            "close": "Close",
+            "closed": "Closed",
+            "comingSoon": "Coming soon...",
+            "comment": "Comment",
+            "confirm": "Confirm",
+            "contact": "Contact",
+            "contactPhone": "Contact phone",
+            "country": "Country",
+            "createdAt": "Created at",
+            "customer": "Customer",
+            "dataNotFound": "Data not found",
+            "dateAndTime": "Date and time",
+            "delete": "Delete",
+            "description": "Description",
+            "details": "Details",
+            "dismiss": "Dismiss",
+            "done": "Done",
+            "duration": "Duration",
+            "earliestBooking": "Earliest booking time",
+            "edit": "Edit",
+            "email": "E-mail",
+            "end": "End",
+            "events": "Events",
+            "facilities": "Facilities",
+            "feature": "Feature",
+            "firstName": "First name",
+            "freeHoursAreTaken": "No free slots",
+            "from": "From",
+            "fullName": "Full name",
+            "general": "General",
+            "image": "Image",
+            "inProgress": "In progress",
+            "inactive": "Inactive",
+            "information": "Information",
+            "items": "Items",
+            "language": "Language",
+            "languages": "Languages",
+            "lastName": "Last name",
+            "lastUpdate": "Last update",
+            "latestBooking": "When an event can be booked",
+            "loading": "Loading",
+            "logout": "Logout",
+            "makeAnAppointment": "Make an appointment",
+            "members": "Members",
+            "menu": "Menu",
+            "name": "Name",
+            "next": "Next",
+            "nextStep": "Next step",
+            "no": "No",
+            "note": "Note",
+            "openCart": "Go to cart",
+            "paymentMethod": "Payment method",
+            "permission": "Permission",
+            "personalInformation": "Personal information",
+            "phone": "Phone",
+            "placeholder": {
+                "description": "Type description",
+                "search": "Search"
+            },
+            "previous": "Previous",
+            "price": "Price",
+            "priceTimeFormatPrompt": "hours:minutes",
+            "prices": "Prices",
+            "publicPage": "Public page",
+            "reserve": "Reserve",
+            "role": "Role",
+            "save": "Save",
+            "select": "Select",
+            "selectSpecialist": "Select specialist",
+            "selected": "Selected",
+            "send": "Send",
+            "service": "Service",
+            "services": "Services",
+            "servicesOrdered": "Services ordered",
+            "signIn": "Sign in",
+            "signOut": "Sign out",
+            "signUp": "Sign up",
+            "slogan": "Slogan",
+            "socialMedia": "Social media",
+            "soon": "Soon",
+            "specialist": "Specialist",
+            "specialists": "Specialists",
+            "start": "Start",
+            "status": "Status",
+            "streetAddressLineOne": "Address 1",
+            "streetAddressLineTwo": "Address 2",
+            "theme": "Theme",
+            "title": "Title",
+            "to": "To",
+            "today": "Today",
+            "tomorrow": "Tomorrow",
+            "total": "Total",
+            "totalAmount": "Total amount",
+            "unknown": "Unknown",
+            "update": "Updated",
+            "updatedAt": "Updated at",
+            "workdays": "Workdays",
+            "workingHours": "Working hours",
+            "writePrice": "Write price",
+            "yes": "Yes",
+            "zipCode": "Zip code"
+        },
+        "lowercase": {
+            "dragAndDrop": "drag and drop",
+            "event": "event",
+            "or": "or"
+        }
+    },
+    "library": {
+        "addToCalendar": {
+            "hint": "Add the event to your calendar to save it to your devices.",
+            "title": "Add to calendar"
+        }
+    },
+    "order": {
+        "confirm": {
+            "cancel": {
+                "question": "Are you sure you want to cancel this order?"
+            }
+        }
+    },
+    "paymentMethod": {
+        "cash": "Cash"
+    },
+    "seo": {
+        "page": {
+            "client": {
+                "details": {
+                    "default": {
+                        "description": "Use the reliable services of {{businessName}}. Pleasant and comfortable atmosphere, high level of service. Make an appointment right now!"
+                    }
+                }
+            }
+        }
+    },
+    "tabMenu": {
+        "details": {
+            "label": "Details"
+        },
+        "service": {
+            "label": "Services"
+        }
+    },
+    "weekday": {
+        "long": {
+            "friday": "Friday",
+            "monday": "Monday",
+            "saturday": "Saturday",
+            "sunday": "Sunday",
+            "thursday": "Thursday",
+            "tuesday": "Tuesday",
+            "wednesday": "Wednesday"
+        },
+        "short": {
+            "friday": "Fri",
+            "monday": "Mon",
+            "saturday": "Sat",
+            "sunday": "Sun",
+            "thursday": "Thu",
+            "tuesday": "Tue",
+            "wednesday": "Wed"
+        }
+    }
+}

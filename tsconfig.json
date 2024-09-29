@@ -1,0 +1,87 @@
+/* To learn more about this file see: https://angular.io/config/tsconfig. */ {
+  "compileOnSave": false,
+  "compilerOptions": {
+    "esModuleInterop": true,
+    "skipLibCheck": true,
+    "baseUrl": "./",
+    "outDir": "./dist/out-tsc",
+    "forceConsistentCasingInFileNames": true,
+    "strict": true,
+    "noImplicitOverride": true,
+    "noPropertyAccessFromIndexSignature": false,
+    "noImplicitReturns": true,
+    "noFallthroughCasesInSwitch": true,
+    "sourceMap": true,
+    "declaration": false,
+    "downlevelIteration": true,
+    "experimentalDecorators": true,
+    "moduleResolution": "node",
+    "importHelpers": true,
+    "target": "ES2022",
+    "module": "ES2022",
+    "useDefineForClassFields": false,
+    "lib": [
+      "ES2022",
+      "dom"
+    ],
+    "paths": {
+      "@src/*": [
+        "./src/*"
+      ],
+      "@environments/*": [
+        "./src/environments/*"
+      ],
+      "@assets/*": [
+        "./src/assets/*"
+      ],
+      "@scss/*": [
+        "./src/assets/scss/*"
+      ],
+      "@icon/*": [
+        "./src/assets/icon/*"
+      ],
+      "@app/*": [
+        "./src/app/*"
+      ],
+      "@module/*": [
+        "./src/module/*"
+      ],
+      "@client/*": [
+        "./src/module/client/*"
+      ],
+      "@customer/*": [
+        "./src/module/customer/*"
+      ],
+      "@identity/*": [
+        "./src/module/identity/*"
+      ],
+      "@service/*": [
+        "./src/module/service/*"
+      ],
+      "@user/*": [
+        "./src/module/user/*"
+      ],
+      "@utility/*": [
+        "./src/module/utility/*"
+      ],
+      "@specialist/*": [
+        "./src/module/specialist/*"
+      ],
+      "@order/*": [
+        "./src/module/order/*"
+      ],
+    },
+    "plugins": [
+      {
+        "transform": "typia/lib/transform"
+      }
+    ],
+    "strictNullChecks": true
+  },
+  "angularCompilerOptions": {
+    "enableI18nLegacyMessageIdFormat": false,
+    "strictInjectionParameters": true,
+    "strictInputAccessModifiers": true,
+    "strictTemplates": true
+  }
+}

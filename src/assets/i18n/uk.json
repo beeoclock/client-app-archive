@@ -1,0 +1,360 @@
+{
+    "agreement": {
+        "validation": {
+            "required": "Потрібно погодитися з умовами, щоб продовжити."
+        }
+    },
+    "agreements": {
+        "termsOfUseAndPrivacyPolicy": {
+            "label": "Я погоджуюся з <a href=\"{{terms_link}}\" target=\"_blank\">Умовами використання</a> та <a href=\"{{privacy_link}}\" target=\"_blank\">Політикою конфіденційності</a>"
+        }
+    },
+    "cart": {
+        "confirm": {
+            "removeService": {
+                "question": "Ви впевнені, що хочете видалити цю послугу?"
+            }
+        },
+        "title": "Кошик"
+    },
+    "client": {
+        "details": {
+            "section": {
+                "address": {
+                    "title": "Адреса та локація"
+                },
+                "contactAndBusinessHours": {
+                    "title": "Графік роботи"
+                },
+                "facilities": {
+                    "title": "Зручності"
+                },
+                "ourWork": {
+                    "title": "Наші роботи"
+                },
+                "socialNetwork": {
+                    "title": "Соціальні мережі"
+                }
+            }
+        }
+    },
+    "country": {
+        "DK": "Данія",
+        "PL": "Польща",
+        "UA": "Україна"
+    },
+    "event": {
+        "details": {
+            "keyword": {
+                "capitalize": {
+                    "informationAboutEvent": "Інформація про подію",
+                    "when": "На коли"
+                }
+            },
+            "status": {
+                "booked": {
+                    "hint": "Вітаємо, спеціаліст затвердив твій запит, тепер запиши подію в свій календар, щоб не забути про неї.",
+                    "title": "Резервація підтверджена"
+                },
+                "cancelled": {
+                    "hint": "На жаль, спеціаліст відхилив твій запит, можливо, він зайнятий або не працює в цей день. Спробуй обрати інший час.",
+                    "title": "Запит відхилено"
+                },
+                "cancelledByCustomer": {
+                    "hint": "Подію було успішно скасовано за твоїм бажанням",
+                    "title": "Подію скасовано"
+                },
+                "done": {
+                    "hint": "Вітаємо, подія відбулась, сподіваємось, що тобі сподобалось. Не забудь залишити відгук про спеціаліста.",
+                    "title": "Подія відбулась"
+                },
+                "requested": {
+                    "hint": "Тепер спеціаліст повинен затвердити запит, після затвердження отримаєш повідомлення на пошту, якщо запит відхилено, то також отримаєш повідомлення на пошту.",
+                    "title": "Запит надіслано"
+                }
+            }
+        },
+        "form": {
+            "section": {
+                "additional": {
+                    "input": {
+                        "note": {
+                            "placeholder": "Тут Ви можете ввести додаткову інформацію про подію"
+                        }
+                    }
+                },
+                "attendant": {
+                    "button": {
+                        "add": "Додати учасника",
+                        "togglePresentationOfNewAttendant": "Цього клієнта немає в списку (новий клієнт)"
+                    },
+                    "hit": {
+                        "enterData": "Введіть свої дані, щоб забронювати послугу"
+                    },
+                    "input": {
+                        "email": {
+                            "hint": "Рекомендуємо вказати електрону скриньку, оскільки на цю адресу буде відправлене підтвердження та оновлення що до події"
+                        },
+                        "selectCustomer": {
+                            "placeholder": "Виберіть клієнта"
+                        }
+                    }
+                },
+                "general": {
+                    "comment": {
+                        "placeholder": "Якщо хочеш про щось важливе проінформувати спеціаліста то залиши цю інформацію в цьому полі"
+                    }
+                },
+                "service": {
+                    "button": {
+                        "add": "Додати послугу",
+                        "select": "Вибрати послугу"
+                    },
+                    "input": {
+                        "selectService": {
+                            "placeholder": "Виберіть послугу"
+                        }
+                    },
+                    "modal": {
+                        "title": "Вибір послуги"
+                    }
+                }
+            }
+        },
+        "keyword": {
+            "capitalize": {
+                "end": "Планується завершити",
+                "repeat": "Повторити",
+                "service": "Послуга",
+                "start": "Заплановано на",
+                "status": "Статус"
+            },
+            "status": {
+                "booked": "Зарезервовано",
+                "cancelled": "Скасована",
+                "done": "Виконано",
+                "requested": "Запит"
+            }
+        },
+        "title": "Подія"
+    },
+    "facility": {
+        "capitalize": {
+            "ACCEPTING_CARD_PAYMENT": "Приймаємо оплату карткою",
+            "ACCEPTING_CHILDREN": "Пристосовано для дітей",
+            "ACCEPTING_PETS": "Можна з домашніми улюбленцями",
+            "ACCOMMODATIONS_FOR_PEOPLE_WITH_DISABILITIES": "Умови для людей з фізичними обмеженнями",
+            "FREE_PARKING": "Безкоштовне паркування",
+            "INTERNET": "Інтернет (Wi-Fi)"
+        }
+    },
+    "form": {
+        "validation": {
+            "atLeastOneFieldMustBeFilled": "Хоча б одне поле має бути заповнене",
+            "email": "Неправильний формат E-mail",
+            "emailOrPhoneRequired": "Введіть номер телефону або E-mail",
+            "invalid": "Неправильний",
+            "minlength": "Мінімальна довжина - {{requiredLength}}",
+            "required": "Обов'язкове поле"
+        }
+    },
+    "keyword": {
+        "capitalize": {
+            "account": "Профіль",
+            "action": "Дія",
+            "active": "Активний",
+            "add-event": "Додати подію",
+            "add-next-service": "Додайти ще одну послугу",
+            "add-service": "Додати послугу",
+            "addAvailableHours": "Додати графік роботи",
+            "addContactPhone": "Додати номер телефону",
+            "addSocialMedia": "Додати соціальну мережу",
+            "additional": "Додатково",
+            "address": "Адреса",
+            "anybody": "Будь-хто",
+            "approvalTime": "Час на підтвердження",
+            "approve": "Прийняти",
+            "attendees": "Учасники",
+            "back": "Назад",
+            "book": "Забронювати",
+            "bookNow": "Забронювати зараз",
+            "booking": "Бронювання",
+            "bookingSettings": "Налаштування бронювання",
+            "break": "Перерва",
+            "businessCategory": "Категорія бізнесу",
+            "businessName": "Назва бізнесу",
+            "call": "Дзвони.",
+            "cancel": "Скасувати",
+            "cancelEvent": "Скасувати подію",
+            "cancelOrder": "Скасувати замовлення",
+            "changeLanguage": "Зміна мови",
+            "chooseADateAndTime": "Обрати дату та час",
+            "chooseImage": "Вибери файл",
+            "city": "Населений пункт",
+            "clearCache": "Очистити кеш",
+            "clickToUpload": "Натисніть, щоб завантажити",
+            "clients": "Клієнти",
+            "close": "Закрити",
+            "closed": "Зачинено",
+            "comingSoon": "Невдовзі з'явиться...",
+            "comment": "Коментар",
+            "confirm": "Підтвердити",
+            "contact": "Контакт",
+            "contactPhone": "Контактний телефон",
+            "country": "Країна",
+            "createdAt": "Створено",
+            "customer": "Клієнт",
+            "dataNotFound": "Дані не знайдені",
+            "dateAndTime": "Дата та час",
+            "delete": "Видалити",
+            "description": "Опис",
+            "details": "Деталі",
+            "dismiss": "Відхилити",
+            "done": "Готово",
+            "duration": "Тривалість",
+            "earliestBooking": "Найближче бронювання можливе",
+            "edit": "Редагувати",
+            "email": "Електронна скринька",
+            "end": "Кінець",
+            "events": "Події",
+            "facilities": "Зручності",
+            "feature": "Особливість",
+            "firstName": "Ім'я",
+            "freeHoursAreTaken": "Немає вільних слотів",
+            "from": "Від",
+            "fullName": "Повне ім'я",
+            "general": "Загальне",
+            "image": "Зображення",
+            "inProgress": "Виконується",
+            "inactive": "Неактивний",
+            "information": "Інформація",
+            "items": "Кількість",
+            "language": "Мова",
+            "languages": "Мови",
+            "lastName": "Прізвище",
+            "lastUpdate": "Останнє оновлення",
+            "latestBooking": "На коли можна зарезервувати послугу",
+            "loading": "Завантаження",
+            "logout": "Вихід",
+            "makeAnAppointment": "Записатись",
+            "members": "Учасники",
+            "menu": "Меню",
+            "name": "Ім'я",
+            "next": "Далі",
+            "nextStep": "Наступний крок",
+            "no": "Ні",
+            "note": "Примітка",
+            "openCart": "Перейти до кошика",
+            "paymentMethod": "Спосіб оплати",
+            "permission": "Дозвіл",
+            "personalInformation": "Особиста інформація",
+            "phone": "Телефон",
+            "placeholder": {
+                "description": "Напиши додаткову інформацію",
+                "search": "Пошук"
+            },
+            "previous": "Назад",
+            "price": "Ціна",
+            "priceTimeFormatPrompt": "години:хвилини",
+            "prices": "Ціни",
+            "publicPage": "Публічна сторінка",
+            "reserve": "Забронювати",
+            "role": "Роль",
+            "save": "Зберегти",
+            "select": "Вибрати",
+            "selectSpecialist": "Виберіть спеціаліста",
+            "selected": "Обрано",
+            "send": "Відправити",
+            "service": "Послуга",
+            "services": "Послуги",
+            "servicesOrdered": "Замовлені послуги",
+            "signIn": "Увійти",
+            "signOut": "Вийти",
+            "signUp": "Зареєструватися",
+            "slogan": "Гасло",
+            "socialMedia": "Соціальні мережі",
+            "soon": "Незабаром",
+            "specialist": "Спеціаліст",
+            "specialists": "Спеціалісти",
+            "start": "Початок",
+            "status": "Статус",
+            "streetAddressLineOne": "Адреса 1",
+            "streetAddressLineTwo": "Адреса 2",
+            "theme": "Тема",
+            "title": "Назва",
+            "to": "До",
+            "today": "Сьогодні",
+            "tomorrow": "Завтра",
+            "total": "Всього",
+            "totalAmount": "Загальна сума",
+            "unknown": "Невідомо",
+            "update": "Оновити",
+            "updatedAt": "Оновлено",
+            "workdays": "Робочі дні",
+            "workingHours": "Графік роботи",
+            "writePrice": "Ввести ціну",
+            "yes": "Так",
+            "zipCode": "Поштовий індекс"
+        },
+        "lowercase": {
+            "dragAndDrop": "перетягніть і випустіть файл",
+            "event": "подія",
+            "or": "або"
+        }
+    },
+    "library": {
+        "addToCalendar": {
+            "hint": "Додай подію до свого календаря, щоб зберегти її на своїх пристроях.",
+            "title": "Додати до календаря"
+        }
+    },
+    "order": {
+        "confirm": {
+            "cancel": {
+                "question": "Ви впевнені, що хочете скасувати це замовлення?"
+            }
+        }
+    },
+    "paymentMethod": {
+        "cash": "Готівка"
+    },
+    "seo": {
+        "page": {
+            "client": {
+                "details": {
+                    "default": {
+                        "description": "Скористайся надійними послугами від {{businessName}}. Приємна та зручна атмосфера, високий рівень обслуговування. Запишись прямо зараз!"
+                    }
+                }
+            }
+        }
+    },
+    "tabMenu": {
+        "details": {
+            "label": "Деталі"
+        },
+        "service": {
+            "label": "Послуги"
+        }
+    },
+    "weekday": {
+        "long": {
+            "friday": "П'ятниця",
+            "monday": "Понеділок",
+            "saturday": "Субота",
+            "sunday": "Неділя",
+            "thursday": "Четвер",
+            "tuesday": "Вівторок",
+            "wednesday": "Середа"
+        },
+        "short": {
+            "friday": "Пт",
+            "monday": "Пн",
+            "saturday": "Сб",
+            "sunday": "Нд",
+            "thursday": "Чт",
+            "tuesday": "Вт",
+            "wednesday": "Ср"
+        }
+    }
+}

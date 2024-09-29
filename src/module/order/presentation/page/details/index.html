@@ -1,0 +1,43 @@
+<div class="mx-auto w-full max-w-md flex-col items-center justify-start pt-2">
+  <div class="flex flex-col items-center justify-start gap-4 py-4">
+    <div
+      class="inline-flex items-center justify-between self-stretch px-4 sm:px-0"
+    >
+      <div class="flex items-center justify-end self-stretch">
+        <div class="flex items-center justify-center self-stretch">
+          <utility-back-link-component [url]="['/', CLIENT_ID$.value]"/>
+        </div>
+      </div>
+      <div class="flex items-center justify-start gap-1 self-stretch py-2.5">
+        <img [src]="logo$ | async" class="h-20" alt="logo">
+      </div>
+      <div class="flex items-center justify-end self-stretch">
+        <div class="flex items-center justify-center self-stretch">
+          <utility-change-language-component/>
+        </div>
+      </div>
+    </div>
+
+    <ng-container *ngIf="item">
+
+      <ng-container [ngSwitch]="item.status">
+
+        <order-details-cancelled-case [item]="item" *ngSwitchCase="status.cancelled"/>
+        <order-details-confirmed-case [item]="item" *ngSwitchCase="status.confirmed"/>
+        <order-details-done-case [item]="item" *ngSwitchCase="status.done"/>
+        <order-details-pending-case [item]="item" *ngSwitchCase="status.pending"/>
+        <order-details-requested-case [item]="item" *ngSwitchCase="status.requested"/>
+        <order-details-draft-case [item]="item" *ngSwitchCase="status.draft"/>
+
+      </ng-container>
+
+    </ng-container>
+  </div>
+
+
+  <div class="py-8 text-center">
+    <span class="text-base font-normal text-slate-400">
+      Powered by Bee O’clock v1.0.0
+    </span>
+  </div>
+</div>

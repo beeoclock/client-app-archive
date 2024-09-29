@@ -1,0 +1,15 @@
+<div class="mx-auto flex max-w-md flex-col gap-4">
+    <!--    <stepper-component (click)="open()" [activeStep]="currentStep"/>-->
+
+    <div class="px-4">
+        @switch (currentStep) {
+            @case (stepEnum.service) {
+                <service-step/>
+            }
+            @case (stepEnum.timeSlotAndSpecialist) {
+                <time-slot-and-specialist-step/>
+            }
+        }
+    </div>
+
+</div>

@@ -1,0 +1,17 @@
+[
+  {
+    "route": "/"
+  },
+  {
+    "route": "/pl/barbershop_brooklyn"
+  },
+  {
+    "route": "/en/barbershop_brooklyn"
+  },
+  {
+    "route": "/uk/barbershop_brooklyn"
+  },
+  {
+    "route": "/da/barbershop_brooklyn"
+  }
+]

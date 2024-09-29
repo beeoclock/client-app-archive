@@ -1,0 +1,12 @@
+identifier: l1u9m5re4015jcg9
+appPort: 1864
+staticPort: 1668
+reloadPort: 2667
+hostName: localhost
+projectName: client-app
+homeFolder: /Users/ivankarbashevskyi/Projects/Organizations/beeoclock/client-app
+distFolder: ./firebase/production/dist/client-app
+outDir: >-
+  /Users/ivankarbashevskyi/Projects/Organizations/beeoclock/client-app/firebase/production/dist/static
+handle404: ""
+allowErrorCollect: false

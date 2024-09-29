@@ -1,0 +1,359 @@
+{
+    "agreement": {
+        "validation": {
+            "required": "Aby kontynuować, musisz wyrazić zgodę na warunki."
+        }
+    },
+    "agreements": {
+        "termsOfUseAndPrivacyPolicy": {
+            "label": "Akceptuję <a href=\"{{terms_link}}\" target=\"_blank\">Warunki korzystania</a> i <a href=\"{{privacy_link}}\" target=\"_blank\">Politykę prywatności</a>"
+        }
+    },
+    "cart": {
+        "confirm": {
+            "removeService": {
+                "question": "Czy na pewno chcesz usunąć tę usługę?"
+            }
+        },
+        "title": "Koszyk"
+    },
+    "client": {
+        "details": {
+            "section": {
+                "address": {
+                    "title": "Adres i lokalizacja"
+                },
+                "contactAndBusinessHours": {
+                    "title": "Godziny pracy"
+                },
+                "facilities": {
+                    "title": "Udogodnienia"
+                },
+                "ourWork": {
+                    "title": "Nasza praca"
+                },
+                "socialNetwork": {
+                    "title": "Sieci społecznościowe"
+                }
+            }
+        }
+    },
+    "country": {
+        "DK": "Dania",
+        "PL": "Polska",
+        "UA": "Ukraina"
+    },
+    "event": {
+        "details": {
+            "keyword": {
+                "capitalize": {
+                    "when": "Kiedy"
+                }
+            },
+            "status": {
+                "booked": {
+                    "hint": "Gratulacje, specjalista zatwierdził Twoją prośbę, teraz zaznacz to wydarzenie w kalendarzu, aby o nim nie zapomnieć.",
+                    "title": "Rezerwacja potwierdzona"
+                },
+                "cancelled": {
+                    "hint": "Niestety, specjalista odrzucił Twoją prośbę, być może jest zajęty lub nie pracuje tego dnia. Spróbuj innym razem.",
+                    "title": "Żądanie odrzucone"
+                },
+                "cancelledByCustomer": {
+                    "hint": "Wydarzenie zostało pomyślnie anulowane na prośbę użytkownika",
+                    "title": "Wydarzenie zostało odwołane"
+                },
+                "done": {
+                    "hint": "Gratulujemy, wydarzenie się odbyło, mamy nadzieję, że się podobało. Nie zapomnij zostawić opinii o specjaliście.",
+                    "title": "Wydarzenie miało miejsce"
+                },
+                "requested": {
+                    "hint": "Teraz specjalista musi zatwierdzić wniosek, po zatwierdzeniu otrzymasz powiadomienie e-mail, jeśli wniosek zostanie odrzucony, otrzymasz również powiadomienie e-mail.",
+                    "title": "Żądanie zostało wysłane"
+                }
+            }
+        },
+        "form": {
+            "section": {
+                "additional": {
+                    "input": {
+                        "note": {
+                            "placeholder": "Tutaj możesz wprowadzić dodatkowe informacje o wydarzeniu"
+                        }
+                    }
+                },
+                "attendant": {
+                    "button": {
+                        "add": "Dodaj uczestnika",
+                        "togglePresentationOfNewAttendant": "Tego klienta nie ma na liście (nowy klient)"
+                    },
+                    "hit": {
+                        "enterData": "Wpisz swoje dane, aby zarezerwować usługę"
+                    },
+                    "input": {
+                        "email": {
+                            "hint": "Zalecamy podanie adresu e-mail, na który będą wysyłane potwierdzenia i aktualizacje dotyczące wydarzenia"
+                        },
+                        "selectCustomer": {
+                            "placeholder": "Wybierz klienta"
+                        }
+                    }
+                },
+                "general": {
+                    "comment": {
+                        "placeholder": "Jeśli chcesz poinformować specjalistę o czymś ważnym, pozostaw tę informację w tym polu"
+                    }
+                },
+                "service": {
+                    "button": {
+                        "add": "Dodaj usługę",
+                        "select": "Wybierz usługę"
+                    },
+                    "input": {
+                        "selectService": {
+                            "placeholder": "Wybierz usługę"
+                        }
+                    },
+                    "modal": {
+                        "title": "Wybór usługi"
+                    }
+                }
+            }
+        },
+        "keyword": {
+            "capitalize": {
+                "end": "Szacowany koniec",
+                "repeat": "Powtarzanie",
+                "service": "Usługa",
+                "start": "Rozpoczęcie rezerwacji",
+                "status": "Status"
+            },
+            "status": {
+                "booked": "Zarezerwowane",
+                "cancelled": "Anulowane",
+                "done": "Zakończone",
+                "requested": "Wniosek"
+            }
+        },
+        "title": "Wydarzenie"
+    },
+    "facility": {
+        "capitalize": {
+            "ACCEPTING_CARD_PAYMENT": "Akceptujemy płatności kartą",
+            "ACCEPTING_CHILDREN": "Przyjazne dzieciom",
+            "ACCEPTING_PETS": "Zwierzęta dozwolone",
+            "ACCOMMODATIONS_FOR_PEOPLE_WITH_DISABILITIES": "Zakwaterowanie dla osób z niepełnosprawnością",
+            "FREE_PARKING": "Darmowy parking",
+            "INTERNET": "Internet (Wi-Fi)"
+        }
+    },
+    "form": {
+        "validation": {
+            "atLeastOneFieldMustBeFilled": "Co najmniej jedno pole musi być wypełnione",
+            "email": "Nieprawidłowy format adresu e-mail",
+            "emailOrPhoneRequired": "Wymagany jest numer telefonu lub adres e-mail",
+            "invalid": "Nieprawidłowy",
+            "minlength": "Minimalna długość to {{requiredLength}}",
+            "required": "Wymagane pole"
+        }
+    },
+    "keyword": {
+        "capitalize": {
+            "account": "Konto",
+            "action": "Akcja",
+            "active": "Aktywny",
+            "add-event": "Dodaj wydarzenie",
+            "add-next-service": "Dodaj kolejną usługę",
+            "add-service": "Dodaj usługę",
+            "addAvailableHours": "Dodaj dostępne godziny",
+            "addContactPhone": "Dodaj telefon kontaktowy",
+            "addSocialMedia": "Dodaj media społecznościowe",
+            "additional": "Dodatkowe",
+            "address": "Adres",
+            "anybody": "Ktokolwiek",
+            "approvalTime": "Czas zatwierdzania",
+            "approve": "Zatwierdź",
+            "attendees": "Uczestnicy",
+            "back": "Wstecz",
+            "book": "Rezerwuj",
+            "bookNow": "Zarezerwuj teraz",
+            "booking": "Rezerwacja",
+            "bookingSettings": "Ustawienia rezerwacji",
+            "break": "Przerwa",
+            "businessCategory": "Kategoria biznesowa",
+            "businessName": "Nazwa firmy",
+            "call": "Zadzwoń",
+            "cancel": "Anuluj",
+            "cancelEvent": "Anulowanie zdarzenia",
+            "cancelOrder": "Anulowanie zamówienia",
+            "changeLanguage": "Zmiana języka",
+            "chooseADateAndTime": "Wybierz datę i godzinę",
+            "chooseImage": "Wybierz plik",
+            "city": "Miasto",
+            "clearCache": "Wyczyść Cache",
+            "clickToUpload": "Kliknij, aby przesłać",
+            "clients": "Klienci",
+            "close": "Zamknij",
+            "closed": "Zamknięte",
+            "comingSoon": "Już wkrótce...",
+            "comment": "Komentarz",
+            "confirm": "Potwierdź",
+            "contact": "Kontakt",
+            "contactPhone": "Telefon kontaktowy",
+            "country": "Kraj",
+            "createdAt": "Utworzono",
+            "customer": "Klient",
+            "dataNotFound": "Nie znaleziono danych",
+            "dateAndTime": "Data i czas",
+            "delete": "Usuń",
+            "description": "Opis",
+            "details": "Szczegóły",
+            "dismiss": "Odrzuć",
+            "done": "Gotowe",
+            "duration": "Czas trwania",
+            "earliestBooking": "Najbliższy termin rezerwacji",
+            "edit": "Edytuj",
+            "email": "E-mail",
+            "end": "Koniec",
+            "events": "Wydarzenia",
+            "facilities": "Udogodnienia",
+            "feature": "Funkcja",
+            "firstName": "Imię",
+            "freeHoursAreTaken": "Brak wolnych slotów",
+            "from": "Od",
+            "fullName": "Pełne imię i nazwisko",
+            "general": "Ogólne",
+            "image": "Obraz",
+            "inProgress": "W toku",
+            "inactive": "Nieaktywny",
+            "information": "Informacje",
+            "items": "Ilość",
+            "language": "Język",
+            "languages": "Języki",
+            "lastName": "Nazwisko",
+            "lastUpdate": "Ostatnia aktualizacja",
+            "latestBooking": "Najpóźniejszy termin rezerwacji",
+            "loading": "Ładowanie",
+            "logout": "Wyloguj się",
+            "makeAnAppointment": "Zapisać się",
+            "members": "Członkowie",
+            "menu": "Menu",
+            "name": "Nazwa",
+            "next": "Dalej",
+            "nextStep": "Następny krok",
+            "no": "Nie",
+            "note": "Notatka",
+            "openCart": "Przejdź do koszyka",
+            "paymentMethod": "Metoda płatności",
+            "permission": "Uprawnienie",
+            "personalInformation": "Dane osobowe",
+            "phone": "Telefon",
+            "placeholder": {
+                "description": "Wprowadź szczegóły",
+                "search": "Szukaj"
+            },
+            "previous": "Wstecz",
+            "price": "Cena",
+            "priceTimeFormatPrompt": "godziny:minuty",
+            "prices": "Ceny",
+            "publicPage": "Strona publiczna",
+            "reserve": "Rezerwuj",
+            "role": "Rola",
+            "save": "Zapisz",
+            "select": "Wybierz",
+            "selectSpecialist": "Wybierz specjalistę",
+            "selected": "Wybrano",
+            "send": "Wyślij",
+            "service": "Usługa",
+            "services": "Usługi",
+            "servicesOrdered": "Zamówione usługi",
+            "signIn": "Zaloguj się",
+            "signOut": "Wyloguj się",
+            "signUp": "Zarejestruj się",
+            "slogan": "Slogan",
+            "socialMedia": "Media społecznościowe",
+            "soon": "Wkrótce",
+            "specialist": "Specjalista",
+            "specialists": "Specjaliści",
+            "start": "Początek",
+            "status": "Status",
+            "streetAddressLineOne": "Adres 1",
+            "streetAddressLineTwo": "Adres 2",
+            "theme": "Motyw",
+            "title": "Tytuł",
+            "to": "Do",
+            "today": "Dziś",
+            "tomorrow": "Jutro",
+            "total": "Razem",
+            "totalAmount": "Całkowita kwota",
+            "unknown": "Nieznany",
+            "update": "Zaktualizowano",
+            "updatedAt": "Zaktualizowano",
+            "workdays": "Dni pracy",
+            "workingHours": "Godziny pracy",
+            "writePrice": "Wpisz cenę",
+            "yes": "Tak",
+            "zipCode": "Kod pocztowy"
+        },
+        "lowercase": {
+            "dragAndDrop": "przeciągnij i upuść plik",
+            "event": "wydarzenie",
+            "or": "lub"
+        }
+    },
+    "library": {
+        "addToCalendar": {
+            "hint": "Dodaj wydarzenie do kalendarza, aby zapisać je na swoich urządzeniach.",
+            "title": "Dodaj do kalendarza"
+        }
+    },
+    "order": {
+        "confirm": {
+            "cancel": {
+                "question": "Czy na pewno chcesz anulować to zamówienie?"
+            }
+        }
+    },
+    "paymentMethod": {
+        "cash": "Gotówka"
+    },
+    "seo": {
+        "page": {
+            "client": {
+                "details": {
+                    "default": {
+                        "description": "Skorzystaj z niezawodnych usług {{businessName}}. Przyjemna i komfortowa atmosfera, wysoki poziom obsługi. Umów się na wizytę już teraz!"
+                    }
+                }
+            }
+        }
+    },
+    "tabMenu": {
+        "details": {
+            "label": "Szczegóły"
+        },
+        "service": {
+            "label": "Usługi"
+        }
+    },
+    "weekday": {
+        "long": {
+            "friday": "Piątek",
+            "monday": "Poniedziałek",
+            "saturday": "Sobota",
+            "sunday": "Niedziela",
+            "thursday": "Czwartek",
+            "tuesday": "Wtorek",
+            "wednesday": "Środa"
+        },
+        "short": {
+            "friday": "Pt",
+            "monday": "Pn",
+            "saturday": "So",
+            "sunday": "Nd",
+            "thursday": "Cz",
+            "tuesday": "Wt",
+            "wednesday": "Śr"
+        }
+    }
+}

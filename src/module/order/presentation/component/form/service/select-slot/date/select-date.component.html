@@ -1,0 +1,45 @@
+<div class="flex flex-col gap-3 dark:text-white">
+    <order-header-select-date-component [dayItemList]="dayItemList"/>
+
+    <div *ngIf="!dayItemList?.length" class="flex items-center justify-between">
+        <!-- Day Slots Container -->
+        <div class="flex w-full items-center justify-between overflow-x-auto">
+            <div class="relative animate-pulse" *ngFor="let emptySlot of arrayOfEmptySlots">
+                <button
+                    type="button"
+                    [disabled]="true"
+                    class="bg-gray-800 text-whiteflex max-h-[62px] min-h-[62px] min-w-[62px] max-w-[62px] flex-col items-center justify-center rounded-lg border-2 border-slate-600 leading-tight shadow transition-all duration-500 hover:border-slate-600 hover:bg-yellow-400 hover:text-slate-600 sm:max-h-[76px] sm:min-h-[76px] sm:min-w-[76px] sm:max-w-[76px]">
+                </button>
+            </div>
+        </div>
+    </div>
+
+    <div class="flex items-center justify-between">
+        <!-- Day Slots Container -->
+        <div
+            #daySlotsContainer
+            class="flex w-full items-center justify-between overflow-x-auto"
+        >
+            <div class="relative" *ngFor="let dayItem of dayItemList">
+                <button
+                    type="button"
+                    (click)="select(dayItem)"
+                    [ngClass]="{
+                        'bg-yellow-400 text-gray-800': isSelected(dayItem.datetime),
+                        'bg-gray-800 text-white': !isSelected(dayItem.datetime),
+                      }"
+                    [disabled]="(loader.state$ | async) || isDisabled(dayItem)"
+                    [class.text-yellow-400]="!isSelected(dayItem.datetime) && dayItem.isToday"
+                    class="flex max-h-[62px] min-h-[62px] min-w-[62px] max-w-[62px] flex-col items-center justify-center rounded-lg border-2 border-slate-600 leading-tight shadow transition-all duration-500 hover:border-slate-600 hover:bg-yellow-400 hover:text-slate-600 sm:max-h-[76px] sm:min-h-[76px] sm:min-w-[76px] sm:max-w-[76px]">
+                    <span class="font-bold">{{ dayItem.datetime.day }}</span>
+                    <span>{{ dayItem.datetime.weekdayShort }}</span>
+                </button>
+
+                <div
+                    *ngIf="hasSelectedTimeSlot(dayItem.datetime)"
+                    class="absolute bottom-0 left-[50%] h-[6px] w-[30px] -translate-x-2/4 rounded-full bg-white"
+                ></div>
+            </div>
+        </div>
+    </div>
+</div>
